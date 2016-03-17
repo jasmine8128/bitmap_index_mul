@@ -1,0 +1,120 @@
+#include<stdio.h>
+#include<math.h>
+#include<stdlib.h>
+//#include"my_itoa.h"
+const int attrs=10;
+const int datas=100;
+const int kinds=30;
+const int bit_bytes=attrs*sizeof(int *);
+const int size_bytes=attrs*sizeof(int);
+const int lie_bytes=attrs*sizeof(int);
+int bit[attrs][datas];
+int key[attrs][kinds];
+int offset[attrs][kinds];
+int size[attrs];
+int lie[attrs];
+int attr_size;
+int bin_31=0x80000000;
+FILE *fp;
+
+void get_attr_size()
+{
+	fp=fopen("outputm.txt","r");
+	char c;
+	attr_size=0;
+	while((c=fgetc(fp))!=EOF)
+	{
+		if(c=='[')
+			attr_size++;
+
+	}
+	attr_size=attr_size/2;
+	fclose(fp);
+}
+void get_bitmap()
+{
+	fp=fopen("outputm.txt","r");
+	int i,j,k,offs;
+	char init;
+	i=0;j=0;k=0;
+	fscanf(fp,"%d",&bit[i][j]);j++;
+	while((init=fgetc(fp))!=EOF)
+	{
+		if(init=='[')
+		{
+			fscanf(fp,"%d",&offs);
+			while(fgetc(fp)!=']')
+			{
+				key[i][k]=offs;
+				k++;
+				fscanf(fp,"%d",&offs);
+			}
+			key[i][k]=offs;
+			while(fgetc(fp)!='[');
+			k=0;
+			fscanf(fp,"%d",&offs);
+			while(fgetc(fp)!=']')
+			{
+				offset[i][k]=offs;
+				k++;
+				fscanf(fp,"%d",&offs);
+			}
+			offset[i][k]=offs;
+			i++;j=0;k=0;
+		}
+		else{
+			fscanf(fp,"%d",&bit[i][j]);
+			j++;
+		}
+	}
+}
+
+void get_attr()
+{
+	int i,j,attr;
+	for(i=0;i<attr_size;i++)
+	{
+		printf("Please input the attribute you choose(if not,input -1):\n");
+		scanf("%d",&attr);
+		if(attr==-1)
+		{
+			size[i]=0;
+			lie[i]=0;
+		}
+		else{
+			size[i]=key[i][attr];
+			lie[i]=offset[i][attr];
+		}
+	}
+
+}
+__global__ void index_bitmap()
+{
+
+}
+
+void cuda_malloc_cpy()
+{
+	int i,j,k;
+	int *hsize;
+	int *hlie;
+	int **hbit;
+
+	cudaMalloc((void **)&hsize,size_bytes);
+	cudaMalloc((void **)&hlie,lie_bytes);
+
+
+
+
+}
+
+
+int main()
+{
+	get_attr_size();
+	get_bitmap();
+	get_attr();
+
+
+	return 0;
+}

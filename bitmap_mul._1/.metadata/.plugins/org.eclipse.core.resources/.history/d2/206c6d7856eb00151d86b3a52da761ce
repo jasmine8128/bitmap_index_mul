@@ -1,0 +1,90 @@
+#include<stdio.h>
+#define CHECK(res) if(res!=cudaSuccess){exit(-1);}
+const int width=10;
+const int height=5;
+const int size=width*height*sizeof(int );
+//const int size=sizeof(int)*width;
+
+/*__global__ void kerneltest(int **b,size_t pitch)
+{
+	printf("(%d,%d)\n",threadIdx.x,threadIdx.y);
+	int *c=(int *)((char *)b+threadIdx.x*pitch);
+	printf("%d, ",c[threadIdx.y]);
+}
+
+int main(int argc,char **argv)
+{
+	int i,j;
+	int a[height][width];
+	int c[height][width];
+	int **b;
+	size_t pitch;
+	cudaError_t res;
+	for(i=0;i<height;i++)
+	{
+		for(j=0;j<width;j++)
+		{
+			a[i][j]=j+i*width;
+			c[i][j]=0;
+			printf("%d  ",a[i][j]);
+		}
+		printf("\n");
+	}
+	res=cudaMallocPitch((void **)&b,&pitch,size,height);CHECK(res);printf("1");
+	res=cudaMemcpy2D(b,pitch,a,size,size,height,cudaMemcpyHostToDevice);CHECK(res);printf("2");
+	dim3 threads(5,10);
+	dim3 blocks(1,1);
+	kerneltest<<<blocks,threads>>>(b,pitch);
+	printf("3");
+	res=cudaMemcpy2D(c,size,b,pitch,size,height,cudaMemcpyDeviceToHost);CHECK(res);printf("4\n");
+	for(i=0;i<height;i++)
+	{
+		for(j=0;j<width;j++)
+		{
+			printf("%d  ",c[i][j]);
+		}
+		printf("\n");
+	}
+	cudaFree(b);
+	return 0;
+}
+*/
+__global__ void testkernel(int **b)
+{
+	printf("(%d,%d)",threadIdx.x,threadIdx.x+blockIdx.x*blockDim.x);
+	int *add=(int *)((int *)b);//,pointarr[threadIdx.y][threadIdx.x]);
+	printf("%d\n",add[threadIdx.x]);
+}
+
+int main()
+{
+	int a[height][width];
+	int c[height][width];
+	int **b;
+	for(int i=0;i<height;i++)
+	{
+		for(int j=0;j<width;j++)
+		{
+			a[i][j]=j+i*width;
+			c[i][j]=0;
+			printf("%d  ",a[i][j]);
+		}
+		printf("\n");
+	}
+	cudaMalloc((void **)&b,size);
+	cudaMemcpy(b,a,size,cudaMemcpyHostToDevice);
+	dim3 threads(width*height,1);
+	dim3 blocks(2,2);
+	testkernel<<<blocks,threads>>>(b);
+	cudaDeviceSynchronize();
+	cudaMemcpy(c,b,size,cudaMemcpyDeviceToHost);
+	for(int i=0;i<height;i++)
+	{
+		for(int j=0;j<width;j++)
+		{
+			printf("%d  ",c[i][j]);
+		}
+		printf("\n");
+	}
+	return 0;
+}

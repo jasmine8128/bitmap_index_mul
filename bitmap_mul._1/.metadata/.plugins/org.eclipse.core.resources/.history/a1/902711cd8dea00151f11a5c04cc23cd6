@@ -1,0 +1,15 @@
+#include"stdio.h"
+void my_itoa(int num,char *str,int bin2)
+{
+    int i;
+    int b=0x00000001;
+    for(i=31;i>=0;i--)
+    {
+        if(num&b)
+            str[i]='1';
+        else
+            str[i]='0';
+        num=num>>1;
+    }
+    str[32]='\0';
+}

@@ -1,0 +1,2714 @@
+10:31:09 **** Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(36): warning: use of "=" where "==" may have been intended
+
+../indexd.cu(66): error: expression must have pointer-to-object type
+
+../indexd.cu(31): warning: variable "init" was set but never used
+
+1 error detected in the compilation of "/tmp/tmpxft_00000f45_00000000-7_indexd.cpp1.ii".
+subdir.mk:18: recipe for target 'indexd.o' failed
+make: *** [indexd.o] Error 2
+10:33:03 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(66): error: expression must have pointer-to-object type
+
+1 error detected in the compilation of "/tmp/tmpxft_00000fbe_00000000-7_indexd.cpp1.ii".
+subdir.mk:18: recipe for target 'indexd.o' failed
+make: *** [indexd.o] Error 2
+10:35:12 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:35:45 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:36:22 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:36:34 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:37:25 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:38:37 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:38:45 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:39:55 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:40:00 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:41:49 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:41:54 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:17 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(31): error: too few arguments in function call
+
+1 error detected in the compilation of "/tmp/tmpxft_00001c46_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+16:46:44 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(31): error: argument of type "size_t *" is incompatible with parameter of type "size_t"
+
+../test1.cu(31): error: too few arguments in function call
+
+2 errors detected in the compilation of "/tmp/tmpxft_00001c99_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+16:47:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:47:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:48:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:52:26 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:52:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:53:04 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:53:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:00:14 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:00:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:03:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(29): error: identifier "res" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000021c2_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+17:03:39 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:03:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:04:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:04:41 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:26:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:26:39 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:27:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:27:37 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:28:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:28:41 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:30:43 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(18): warning: variable "c" was set but never used
+
+../test1.cu(18): warning: variable "c" was set but never used
+
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:31:11 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:31:16 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:31:26 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:31:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:32:30 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:32:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:38:55 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:39:01 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:39:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:39:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:40:07 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:40:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:40:56 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:40:58 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:56 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:42:01 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:42:38 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:43:28 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:43:32 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:58 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:48:03 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:57:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(33): error: identifier "threas" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000030d9_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+18:57:49 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+18:57:54 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:00:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:00:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:01:59 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:02:04 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:02 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(16): warning: variable "c" was set but never used
+
+../test1.cu(16): warning: variable "c" was set but never used
+
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:03:07 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:04:28 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:57 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:05:02 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:05:43 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:05:48 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:06:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:06:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:13 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+19:53:18 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+20:16:57 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+10:46:13 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(77): warning: variable "j" was declared but never referenced
+
+../indexd.cu(101): warning: variable "i" was declared but never referenced
+
+../indexd.cu(101): warning: variable "j" was declared but never referenced
+
+../indexd.cu(101): warning: variable "k" was declared but never referenced
+
+../indexd.cu(9): warning: variable "bit_bytes" was declared but never referenced
+
+../indexd.cu(77): warning: variable "j" was declared but never referenced
+
+../indexd.cu(101): warning: variable "i" was declared but never referenced
+
+../indexd.cu(101): warning: variable "j" was declared but never referenced
+
+../indexd.cu(101): warning: variable "k" was declared but never referenced
+
+../indexd.cu(9): warning: variable "bit_bytes" was declared but never referenced
+
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:47:15 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(100): warning: variable "i" was declared but never referenced
+
+../indexd.cu(100): warning: variable "j" was declared but never referenced
+
+../indexd.cu(100): warning: variable "k" was declared but never referenced
+
+../indexd.cu(100): warning: variable "i" was declared but never referenced
+
+../indexd.cu(100): warning: variable "j" was declared but never referenced
+
+../indexd.cu(100): warning: variable "k" was declared but never referenced
+
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:58:11 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(100): warning: variable "k" was declared but never referenced
+
+../indexd.cu(100): warning: variable "k" was declared but never referenced
+
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:58:22 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+10:58:28 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:59:41 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+11:06:56 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+15:31:18 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(77): warning: variable "size" was set but never used
+
+../indexd.cu(78): warning: variable "lie" was set but never used
+
+../indexd.cu(120): error: identifier "size_bytes" is undefined
+
+../indexd.cu(121): error: identifier "lie_bytes" is undefined
+
+../indexd.cu(123): error: identifier "size" is undefined
+
+../indexd.cu(124): error: identifier "lie" is undefined
+
+4 errors detected in the compilation of "/tmp/tmpxft_0000155b_00000000-7_indexd.cpp1.ii".
+make: *** [indexd.o] Error 2
+subdir.mk:18: recipe for target 'indexd.o' failed
+15:33:04 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(77): warning: variable "size" was set but never used
+
+../indexd.cu(78): warning: variable "lie" was set but never used
+
+../indexd.cu(77): warning: variable "size" was set but never used
+
+../indexd.cu(78): warning: variable "lie" was set but never used
+
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:07:03 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(101): error: identifier "bin31" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000017e1_00000000-7_indexd.cpp1.ii".
+subdir.mk:18: recipe for target 'indexd.o' failed
+make: *** [indexd.o] Error 2
+16:07:16 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(101): error: identifier "bin31" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_00001835_00000000-7_indexd.cpp1.ii".
+subdir.mk:18: recipe for target 'indexd.o' failed
+make: *** [indexd.o] Error 2
+16:07:23 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:07:29 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+16:08:19 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:11:00 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+16:22:53 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:22:57 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+16:23:11 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+16:23:15 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:24:14 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:24:18 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:02:04 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:02:09 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:06:02 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:06:06 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:06:54 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:07:00 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:08:03 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:08:07 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:13:32 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+../indexd.cu:4:20: fatal error: my_itoa.h: No such file or directory
+subdir.mk:18: recipe for target 'indexd.o' failed
+ #include<my_itoa.h>
+                    ^
+compilation terminated.
+make: *** [indexd.o] Error 1
+17:14:42 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(137): error: identifier "my_iota" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_00000f59_00000000-7_indexd.cpp1.ii".
+subdir.mk:18: recipe for target 'indexd.o' failed
+make: *** [indexd.o] Error 2
+17:15:22 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:15:26 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:16:01 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:16:29 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:16:33 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:16:47 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:16:51 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:30:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+10:30:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+10:32:57 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+10:33:01 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+10:38:06 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+10:38:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+10:39:56 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+10:40:00 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+10:43:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+10:43:16 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:01:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:07:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(39): warning: variable "pitch" is used before its value is set
+
+../test1.cu(39): warning: variable "pitch" is used before its value is set
+
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:08:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(39): warning: variable "pitch" is used before its value is set
+
+../test1.cu(39): warning: variable "pitch" is used before its value is set
+
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:08:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:09:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(39): warning: variable "pitch" is used before its value is set
+
+../test1.cu(39): warning: variable "pitch" is used before its value is set
+
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:09:56 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:00 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(39): error: identifier "pitch" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000012f0_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+11:10:27 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(39): error: too few arguments in function call
+
+1 error detected in the compilation of "/tmp/tmpxft_00001348_00000000-7_test1.cpp1.ii".
+make: *** [test1.o] Error 2
+subdir.mk:18: recipe for target 'test1.o' failed
+11:11:09 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(39): error: too few arguments in function call
+
+1 error detected in the compilation of "/tmp/tmpxft_0000139c_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+11:11:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:11:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:15:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:15:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:16:30 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:16:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:17:09 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:17:13 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:20:58 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:21:03 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:21:41 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:21:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:30:00 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(55): error: identifier "__global__void" is undefined
+
+../test1.cu(77): error: a host function call cannot be configured
+
+2 errors detected in the compilation of "/tmp/tmpxft_000019f0_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+11:30:46 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:30:51 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:32:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:32:16 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:33:28 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:33:32 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:34:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(4): error: expected a ";"
+
+../test1.cu(5): error: identifier "height" is undefined
+
+2 errors detected in the compilation of "/tmp/tmpxft_00001ccb_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+11:34:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(4): error: expected a ";"
+
+../test1.cu(5): error: identifier "height" is undefined
+
+2 errors detected in the compilation of "/tmp/tmpxft_00001d2b_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+11:35:06 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:35:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:36:16 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:36:22 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:10:20 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(6): error: variable "size" has already been defined
+
+../test1.cu(10): error: identifier "pitch" is undefined
+
+2 errors detected in the compilation of "/tmp/tmpxft_000020ab_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+15:10:30 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(10): error: identifier "pitch" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000020fb_00000000-7_test1.cpp1.ii".
+make: *** [test1.o] Error 2
+subdir.mk:18: recipe for target 'test1.o' failed
+15:11:14 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:11:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:20 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:12:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:16 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+15:20:21 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+15:39:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:39:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:40:06 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(54): error: expected a ";"
+
+1 error detected in the compilation of "/tmp/tmpxft_00002615_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+15:40:13 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(54): error: expected a ";"
+
+1 error detected in the compilation of "/tmp/tmpxft_00002667_00000000-7_test1.cpp1.ii".
+make: *** [test1.o] Error 2
+subdir.mk:18: recipe for target 'test1.o' failed
+15:40:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:40:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:04 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:42:08 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:44 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:42:48 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:43:16 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:06 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:50:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:02 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:57:07 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:57:38 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:58:01 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:58:14 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:58:18 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:59:13 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+15:59:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:02:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:02:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:03:43 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(131): error: argument of type "float (*)[3]" is incompatible with parameter of type "float **"
+
+1 error detected in the compilation of "/tmp/tmpxft_000030d6_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+16:05:04 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(125): error: expression must be a modifiable lvalue
+
+1 error detected in the compilation of "/tmp/tmpxft_0000313b_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+16:06:37 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:06:42 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:14:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(55): error: identifier "b" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000032d9_00000000-7_test1.cpp1.ii".
+make: *** [test1.o] Error 2
+subdir.mk:18: recipe for target 'test1.o' failed
+16:14:58 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(55): error: identifier "b" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_0000333a_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+16:15:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:15:14 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:15:30 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:15:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:15:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:15:49 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:16:01 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:16:11 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:17:07 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:17:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:19:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:19:20 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:19:23 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:21:58 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:22:02 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:40 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:50:44 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:51:50 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:51:54 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:55:26 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:55:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:57:01 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:57:05 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:01:39 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:01:43 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:02:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:02:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:38 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(54): error: identifier "threadsIdx" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_00003f4e_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+17:05:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:05:51 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:06:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:06:50 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:30 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:07:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:10:40 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:10:44 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:17:38 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:17:42 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+10:40:23 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+10:40:28 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:32 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(57): warning: variable "j" was declared but never referenced
+
+../test1.cu(57): warning: variable "j" was declared but never referenced
+
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:12:39 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:12:44 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:20:23 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+../test1.cu(57): error: identifier "thread" is undefined
+
+../test1.cu(58): warning: variable "i" was declared but never referenced
+
+../test1.cu(58): warning: variable "idx" was declared but never referenced
+
+../test1.cu(58): warning: variable "idy" was declared but never referenced
+
+../test1.cu(60): error: identifier "i" is undefined
+
+../test1.cu(62): error: identifier "idx" is undefined
+
+../test1.cu(63): error: identifier "idy" is undefined
+
+4 errors detected in the compilation of "/tmp/tmpxft_00000d8c_00000000-7_test1.cpp1.ii".
+subdir.mk:18: recipe for target 'test1.o' failed
+make: *** [test1.o] Error 2
+11:20:28 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:20:32 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:24:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:24:26 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:25:39 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:25:43 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+11:27:05 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+11:27:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+15:32:01 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(147): warning: variable "i" was declared but never referenced
+
+../indexd.cu(147): warning: variable "j" was declared but never referenced
+
+../indexd.cu(147): warning: variable "i" was declared but never referenced
+
+../indexd.cu(147): warning: variable "j" was declared but never referenced
+
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+15:32:23 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+15:32:27 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+15:32:46 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+15:34:08 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+15:34:12 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+15:35:19 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+15:35:23 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+16:17:14 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:17:18 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:27:50 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:27:54 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:28:51 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:36:42 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:36:46 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:37:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+16:37:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:01 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(132): error: identifier "total" is undefined
+
+../indexd.cu(184): error: too few arguments in function call
+
+../indexd.cu(154): warning: variable "mul" was set but never used
+
+2 errors detected in the compilation of "/tmp/tmpxft_00001d55_00000000-7_indexd.cpp1.ii".
+make: *** [indexd.o] Error 2
+subdir.mk:18: recipe for target 'indexd.o' failed
+16:48:22 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(184): error: too few arguments in function call
+
+../indexd.cu(154): warning: variable "mul" was set but never used
+
+1 error detected in the compilation of "/tmp/tmpxft_00001db0_00000000-7_indexd.cpp1.ii".
+subdir.mk:18: recipe for target 'indexd.o' failed
+make: *** [indexd.o] Error 2
+16:48:36 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:51:01 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+16:52:49 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:01:36 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:01:41 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:03:12 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:03:16 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:06:44 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:06:55 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:14:42 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../test1.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "test1.d" "../test1.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "test1.o" "../test1.cu"
+Finished building: ../test1.cu
+ 
+Building target: test
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "test"  ./test1.o   
+Finished building target: test
+ 
+17:14:46 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+17:24:40 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+../indexd.cu(151): error: identifier "b" is undefined
+
+../indexd.cu(156): error: identifier "dhtotal" is undefined
+
+2 errors detected in the compilation of "/tmp/tmpxft_00002431_00000000-7_indexd.cpp1.ii".
+make: *** [indexd.o] Error 2
+subdir.mk:18: recipe for target 'indexd.o' failed
+17:24:57 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:25:01 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:32:41 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:32:45 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:09 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:35:54 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:35:58 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:36:09 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:36:13 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:36:49 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:36:53 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:13 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:37:17 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:37 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:38:41 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:58 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:39:03 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:26 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:40:30 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.
+17:42:19 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+Building file: ../indexd.cu
+Invoking: NVCC Compiler
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "indexd.d" "../indexd.cu"
+/usr/local/cuda-7.0/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "indexd.o" "../indexd.cu"
+Finished building: ../indexd.cu
+ 
+Building target: bitmap_mul
+Invoking: NVCC Linker
+/usr/local/cuda-7.0/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "bitmap_mul"  ./indexd.o   
+Finished building target: bitmap_mul
+ 
+17:42:23 **** Incremental Build of configuration Debug for project bitmap_mul ****
+make all 
+make: Nothing to be done for 'all'.

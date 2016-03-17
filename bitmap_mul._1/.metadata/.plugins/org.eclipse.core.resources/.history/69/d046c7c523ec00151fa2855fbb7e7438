@@ -1,0 +1,229 @@
+#include<stdio.h>
+#include<math.h>
+#include<stdlib.h>
+#define CHECK(res) if (res!=cudaSuccess){exit(-1);}
+const int height=10;
+const int width=100;
+const int kinds=30;
+//const int size_bytes=height*sizeof(int);
+//const int lie_bytes=height*sizeof(int);
+//const int width_size=width*sizeof(int);
+const int bit_size=width*height*sizeof(int );
+unsigned int bit[height][width];
+unsigned int bitat[width][height];
+int key[height][kinds];
+int offset[height][kinds];
+int attr_size;
+int attr_total;
+unsigned int bin_31=0x80000000;
+FILE *fp;
+char str[33];
+cudaError_t res;
+
+void my_itoa(int num,char *strr,int bin2)
+{
+    int i;
+    int b=0x00000001;
+    for(i=31;i>=0;i--)
+    {
+        if(num&b)
+            strr[i]='1';
+        else
+            strr[i]='0';
+        num=num>>1;
+    }
+    strr[32]='\0';
+}
+
+void get_attr_size()
+{
+	fp=fopen("outputm.txt","r");
+	char c;
+	attr_size=0;
+	while((c=fgetc(fp))!=EOF)
+	{
+		if(c=='[')
+			attr_size++;
+
+	}
+	attr_size=attr_size/2;
+	fclose(fp);
+}
+void get_bitmap()
+{
+	fp=fopen("outputm.txt","r");
+	int i,j,k,offs;
+	char init;
+	i=0;j=0;k=0;
+	fscanf(fp,"%d",&bit[i][j]);j++;
+	while((init=fgetc(fp))!=EOF)
+	{
+		if(init=='[')
+		{
+			fscanf(fp,"%d",&offs);
+			while(fgetc(fp)!=']')
+			{
+				key[i][k]=offs;
+				k++;
+				fscanf(fp,"%d",&offs);
+			}
+			key[i][k]=offs;
+			while(fgetc(fp)!='[');
+			k=0;
+			fscanf(fp,"%d",&offs);
+			while(fgetc(fp)!=']')
+			{
+				offset[i][k]=offs;
+				k++;
+				fscanf(fp,"%d",&offs);
+			}
+			offset[i][k]=offs;
+			i++;j=0;k=0;
+		}
+		else{
+			fscanf(fp,"%d",&bit[i][j]);
+			j++;
+		}
+	}
+}
+
+void get_attr()
+{
+	int i,j,k,attr;
+	int size[height];
+	int lie[height];
+	int local;
+	attr_total=0;
+	for(i=0;i<attr_size;i++)
+	{
+		printf("Please input the attribute you choose(if not,input -1):\n");
+		scanf("%d",&attr);
+		if(attr==-1)
+		{
+			size[i]=0;
+			lie[i]=0;
+		}
+		else{
+			size[i]=key[i][attr];
+			lie[i]=offset[i][attr];
+		}
+	}
+	for(i=0;i<attr_size;i++)
+	{
+		local=-1;
+		for(j=0;j<size[i];j++)
+		{
+			local+=1;
+			if(bit[i][lie[i]+j]>bin_31)
+			{
+				bitat[local][i]=bit[i][lie[i]+j];
+			}
+			else
+			{
+				for(k=0;k<bit[i][lie[i]+j];k++)
+				{
+					bitat[local+k][i]=0;
+				}
+				local=local+bit[i][lie[i]+j]-1;
+			}
+		}
+	}
+	attr_total=local+1;
+	printf("%d\n",attr_total);
+	for(i=0;i<attr_total;i++)
+	{
+		for(j=0;j<attr_size;j++)
+		{
+			printf("%d:",bitat[i][j]);
+			my_itoa(bitat[i][j],str,2);
+			printf("%s\n",str);
+		}
+		//printf("\n");
+	}
+
+}
+__global__ void kernel_index_bitmap(unsigned int **dbit,int dtotal,int dsize,int dheight,int dmul)
+{
+	int i,j;
+	unsigned num;
+	int idx=threadIdx.x+blockIdx.x*blockDim.x;
+	int idy;
+	printf("(%d,%d)\n",threadIdx.x,idx);
+	int *add=(int *)((int *)dbit);
+	for(i=0;i<dmul;i++)
+	{
+		idy=dmul*idx+i;
+		num=1;
+		if(idy<dtotal){
+			for(j=0;j<dsize;j++)
+			{
+				num&=add[idy*dheight+j];
+				printf("(%d,%d):%d\n",idx,idy,num);
+				printf("(%d,%d):%d\n",idy,idy*dheight+j,add[idy*dheight+j]);
+			}
+
+		}
+	}
+
+}
+
+void cuda_malloc_cpy()
+{
+	int i,j,mul;
+	int thread_size=3;
+	int block_size=1;
+	if(attr_total%(thread_size*block_size)==0)
+		mul=attr_total/(thread_size*block_size);
+	else
+		mul=(attr_total/(thread_size*block_size))+1;
+	printf("mul:%d\n",mul);
+	//int *dsize;
+	//int *dlie;
+	unsigned int **dbit;
+	//size_t pitch;
+	int a[width][height];
+	for(i=0;i<width;i++)
+	{
+		for(j=0;j<height;j++)
+		{
+			a[i][j]=0;
+		}
+	}
+
+	//res=cudaMalloc((void **)&dsize,size_bytes);CHECK(res);printf("[0] ");
+	//res=cudaMalloc((void **)&dlie,lie_bytes);CHECK(res);printf("[1] ");
+	//res=cudaMemcpy(dsize,size,size_bytes,cudaMemcpyHostToDevice);CHECK(res);printf("[2] ");
+	//res=cudaMemcpy(dlie,lie,lie_bytes,cudaMemcpyHostToDevice);CHECK(res);printf("[3] ");
+	//res=cudaMemcpy(b,dsize,size_bytes,cudaMemcpyDeviceToHost);CHECK(res);printf("[4] ");
+	//res=cudaMemcpy(c,dlie,lie_bytes,cudaMemcpyDeviceToHost);CHECK(res);printf("[5] ");
+	//res=cudaMallocPitch((void **)&dbit,&pitch,width_size,height);CHECK(res);printf("[6] ");
+	//res=cudaMemcpy2D(dbit,pitch,bitat,width_size,width_size,height,cudaMemcpyHostToDevice);CHECK(res);printf("[7] ");
+	//res=cudaMemcpy2D(a,width_size,dbit,pitch,width_size,height,cudaMemcpyDeviceToHost);CHECK(res);printf("[8] \n");
+	res=cudaMalloc((void **)&dbit,bit_size);CHECK(res);printf("[6] ");
+	res=cudaMemcpy(dbit,bitat,bit_size,cudaMemcpyHostToDevice);CHECK(res);printf("[7] ");
+	dim3 threads(thread_size,1);
+	dim3 blocks(block_size,1);
+	kernel_index_bitmap<<<blocks,threads>>>(dbit,attr_total,attr_size,height,mul);
+	printf("---------------T_T-------------\n");
+	res=cudaMemcpy(a,dbit,bit_size,cudaMemcpyDeviceToHost);CHECK(res);printf("[8] \n");
+	for(i=0;i<attr_total;i++)
+	{
+		for(j=0;j<attr_size;j++)
+		{
+			printf("%d\n",a[i][j]);
+		}
+
+	}
+
+}
+
+
+int main()
+{
+	get_attr_size();
+	get_bitmap();
+	get_attr();
+	cuda_malloc_cpy();
+
+	return 0;
+}

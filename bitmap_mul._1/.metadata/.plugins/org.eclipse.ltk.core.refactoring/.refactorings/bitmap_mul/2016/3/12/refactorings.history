@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bitmap_mul/indexd&apos; to &apos;indexd.cu&apos;" description="Rename resource &apos;indexd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="indexd" name="indexd.cu" stamp="1457919557365" updateReferences="true"/>
+</session>
